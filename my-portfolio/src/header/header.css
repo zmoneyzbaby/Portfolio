@@ -1,0 +1,21 @@
+:root {
+    --dark-purple: #000000;
+    --light-purple: #1a1919;
+}
+.header { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, var(--dark-purple), var(--light-purple));
+}
+.particle {
+    position: absolute; 
+    width: 100%;
+    z-index: 3;
+}
+
+.header #name{
+    z-index: 2;
+}
